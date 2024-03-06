@@ -1,0 +1,17 @@
+services:
+  frontend:
+    command: 'npm run dev'
+    build:
+      context: .
+    container_name: frontend
+    ports:
+      - 5173:5173
+      - 8080:8080
+      - 4173:4173
+    stdin_open: true
+    volumes:
+      - .:/code
+      - /code/node_modules
+    restart: always
+    env_file:
+      - .env
