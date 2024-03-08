@@ -6,9 +6,10 @@ module.exports = {
 	theme: {
 		extend: {
 			colors: {
-				primary: '#21070f',
-				secondary: '#e4005e',
-				tertiary: '#fdd000',
+				primary: '#FF9F1C',
+				secondary: '#FFBF69',
+				tertiary: '#2EC4B6',
+				quaternary: '#CBF3F0',
 				'black-100': '#21070f',
 				'black-200': '#000000',
 				'white-100': '#f3f3f3',
@@ -20,8 +21,10 @@ module.exports = {
 				xs: '450px',
 			},
 			backgroundImage: {
-				'hero-pattern': "url('/src/assets/portfolio-background1.png')",
+				'hero-pattern': "url('/src/assets/Stuck at Home Home Office.png')",
 				'contact-pattern': "url('/src/assets/contact-background.png')",
+				'about-thumbnail':
+					"url('/src/assets/pexels-mikael-blomkvist-6476260.jpg')",
 			},
 		},
 	},
