@@ -171,7 +171,7 @@ const Contact = () => {
 					</p>
 				</div>
 				<img
-					src={'/src/assets/Stuck at Home Alone Time 1.png'}
+					src={'/assets/Stuck at Home Alone Time 1.png'}
 					alt='stat_image'
 					className='object-cover rounded-2xl'
 				/>
