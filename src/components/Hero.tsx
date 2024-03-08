@@ -30,7 +30,7 @@ const Hero = () => {
 					<div className='flex-1'>
 						{/* <div className='bg-hero-pattern bg-fixed bg-cover bg-no-repeat bg-center h-full' /> */}
 						<img
-							src='/assets/Stuck at Home Home Office.png'
+							src='/landing-page/assets/Stuck at Home Home Office.png'
 							alt='hero image'
 							className='mx-auto'
 						/>
