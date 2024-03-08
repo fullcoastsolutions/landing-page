@@ -20,7 +20,7 @@ import {
 	aws,
 	python,
 	fullstackCmsScreenshot,
-} from '../assets';
+} from '../landing-page/assets';
 import { NavLinksProps } from '../types';
 
 export const navLinks: NavLinksProps = [
@@ -255,19 +255,19 @@ const services = [
 		name: 'Technology Consulting',
 		description:
 			'Navigate the complexities of the business world with confidence. Our seasoned consultants  help you stay ahead in a rapidly evolving market.',
-		image: '/assets/Amigos Chatting.png',
+		image: '/landing-page/assets/Amigos Chatting.png',
 	},
 	{
 		name: 'Marketing Strategies',
 		description:
 			'Our marketing experts develop data-driven strategies to boost your online visibility, engage customers, and drive measurable results.',
-		image: '/assets/Croods Chart.png',
+		image: '/landing-page/assets/Croods Chart.png',
 	},
 	{
 		name: 'Digital & Product Design',
 		description:
 			'Our creative team combines aesthetics with functionality to create user-centric designs that captivate and convert.',
-		image: '/assets/Croods Friends.png',
+		image: '/landing-page/assets/Croods Friends.png',
 	},
 ];
 
@@ -275,17 +275,17 @@ const stats = [
 	{
 		name: '7+',
 		description: 'Years Experience',
-		image: '/assets/Group-two.png',
+		image: '/landing-page/assets/Group-two.png',
 	},
 	{
 		name: '20+',
 		description: 'Exper Consultants',
-		image: '/assets/Group.png',
+		image: '/landing-page/assets/Group.png',
 	},
 	{
 		name: '5+',
 		description: 'Industries Served',
-		image: '/assets/avatar-network.png',
+		image: '/landing-page/assets/avatar-network.png',
 	},
 ];
 
