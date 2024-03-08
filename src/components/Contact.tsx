@@ -17,7 +17,7 @@ const Contact = () => {
 	});
 	const [formError, setFormError] = useState('');
 	const [loading, setLoading] = useState(false);
-	const [recaptcha, setRecaptcha] = useState();
+	const [recaptcha, setRecaptcha] = useState<string | null>();
 
 	const handleChange = (
 		e: React.FormEvent<HTMLInputElement | HTMLTextAreaElement>
@@ -80,8 +80,7 @@ const Contact = () => {
 			);
 	};
 
-	const handleRecaptcha = (value) => {
-		console.log('Captcha Value: ', value);
+	const handleRecaptcha = (value: string | null) => {
 		setRecaptcha(value);
 	};
 
