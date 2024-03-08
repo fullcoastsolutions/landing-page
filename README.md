@@ -23,7 +23,7 @@ My main portfolio is a Vite + React application with CI/CD additions included. S
   ```
   VITE_APP_EMAILJS_TO_NAME=
   VITE_APP_EMAILJS_TO_EMAIL=
-  VITE_APP_EMAILJS_SUBJECT=
+  VITE_APP_EMAILJS_SUBJECT=W
   ```
 
 - Run using `npm`

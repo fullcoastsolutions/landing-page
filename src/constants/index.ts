@@ -1,5 +1,4 @@
 import {
-	mobile,
 	typescript,
 	reactjs,
 	mongodb,
@@ -8,16 +7,11 @@ import {
 	docker,
 	threejs,
 	ipUrlShortener,
-	designCompany,
-	digitalBanking,
 	laravel,
 	mysql,
 	sass,
 	jest,
 	firebase,
-	design,
-	programming,
-	crunchyroll,
 	htmlighting,
 	bydesign,
 	thm,
@@ -34,36 +28,12 @@ export const navLinks = [
 		title: 'About',
 	},
 	{
-		id: 'work',
-		title: 'Work',
+		id: 'services',
+		title: 'Services',
 	},
 	{
 		id: 'contact',
 		title: 'Contact',
-	},
-	{
-		id: 'github',
-		title: 'Github',
-		link: 'https://github.com/adrianrtownsend',
-	},
-];
-
-const services = [
-	{
-		title: 'Fullstack Developer',
-		icon: programming,
-	},
-	{
-		title: 'Mobile Developer',
-		icon: mobile,
-	},
-	{
-		title: 'Digital Designer',
-		icon: design,
-	},
-	{
-		title: 'Anime Enthusiast',
-		icon: crunchyroll,
 	},
 ];
 
@@ -277,50 +247,45 @@ const projects = [
 		source_code_link:
 			'https://github.com/adrianrtownsend/react-shortly-iptracker',
 	},
+];
+
+const services = [
 	{
-		name: 'Design Company Landing Page',
+		name: 'Technology Consulting',
 		description:
-			'Responsive landing page with modern styling and slideshow animations',
-		tags: [
-			{
-				name: 'react',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'typescript',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'sass',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: designCompany,
-		demo_link: 'https://adrianrtownsend.github.io/react-website-two',
-		source_code_link: 'https://github.com/adrianrtownsend/react-website-two',
+			'Navigate the complexities of the business world with confidence. Our seasoned consultants  help you stay ahead in a rapidly evolving market.',
+		image: '/src/assets/Amigos Chatting.png',
 	},
 	{
-		name: 'Digital Bank Landing Page',
+		name: 'Marketing Strategies',
 		description:
-			'A responsive react landing page designed to showcase modern ui/ux styling',
-		tags: [
-			{
-				name: 'react',
-				color: 'blue-text-gradient',
-			},
-			{
-				name: 'typescript',
-				color: 'green-text-gradient',
-			},
-			{
-				name: 'sass',
-				color: 'pink-text-gradient',
-			},
-		],
-		image: digitalBanking,
-		demo_link: 'https://adrianrtownsend.github.io/react-website-one',
-		source_code_link: 'https://github.com/adrianrtownsend/react-website-one',
+			'Our marketing experts develop data-driven strategies to boost your online visibility, engage customers, and drive measurable results.',
+		image: '/src/assets/Croods Chart.png',
+	},
+	{
+		name: 'Digital & Product Design',
+		description:
+			'Our creative team combines aesthetics with functionality to create user-centric designs that captivate and convert.',
+		image: '/src/assets/Croods Friends.png',
 	},
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+const stats = [
+	{
+		name: '7+',
+		description: 'Years Experience',
+		image: '/src/assets/Group-two.png',
+	},
+	{
+		name: '20+',
+		description: 'Exper Consultants',
+		image: '/src/assets/Group.png',
+	},
+	{
+		name: '5+',
+		description: 'Industries Served',
+		image: '/src/assets/avatar-network.png',
+	},
+];
+
+export { services, technologies, experiences, testimonials, projects, stats };

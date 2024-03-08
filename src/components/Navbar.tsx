@@ -30,7 +30,7 @@ const Navbar = () => {
 			className={`${
 				styles.paddingX
 			} w-full flex items-center py-5 fixed top-0 z-20 ${
-				scrolled ? 'bg-white-100/80' : 'bg-transparent'
+				scrolled ? 'bg-white-100/80 text-black' : 'bg-transparent text-primary'
 			}`}
 		>
 			<div className='w-full flex justify-between items-center max-w-7xl mx-auto'>
@@ -42,9 +42,8 @@ const Navbar = () => {
 						window.scrollTo(0, 0);
 					}}
 				>
-					<p className='text-secondary text-[18px] font-bold cursor-pointer flex '>
-						Adrian Townsend&nbsp;
-						<span className='sm:block hidden'> | Fullstack Developer</span>
+					<p className='text-[18px] font-bold cursor-pointer flex '>
+						Full Coast Solutions
 					</p>
 				</Link>
 
@@ -52,9 +51,7 @@ const Navbar = () => {
 					{navLinks.map((nav) =>
 						nav.link ? (
 							<li
-								className={`${
-									active === nav.title ? 'text-primary' : 'text-secondary'
-								} hover:text-tertiary text-[18px] font-medium cursor-pointer`}
+								className={`hover:text-tertiary text-[18px] font-medium cursor-pointer`}
 							>
 								<a
 									href={nav.link}
@@ -66,9 +63,7 @@ const Navbar = () => {
 						) : (
 							<li
 								key={nav.id}
-								className={`${
-									active === nav.title ? 'text-primary' : 'text-secondary'
-								} hover:text-tertiary text-[18px] font-medium cursor-pointer`}
+								className={`hover:text-tertiary text-[18px] font-medium cursor-pointer`}
 								onClick={() => setActive(nav.title)}
 							>
 								<a href={`#${nav.id}`}>{nav.title}</a>
