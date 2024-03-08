@@ -58,6 +58,26 @@ import thm from './imports/thm-logo.png';
 
 import portfolio from './portfolio-thumbnail.png';
 
+import amigosChatting from './Amigos-Chatting.png';
+import avatarNetwork from './avatar-network.png';
+
+import croodsChart from './Croods-Chart.png';
+import croodsFriends from './Croods-Friends.png';
+import croodsUserInterface from './Croods-User-Interface.png';
+import croodsWindows from './Croods-Windows.png';
+
+import group from './Group.png';
+import groupTwo from './Group-two.png';
+
+import alexAntBg from './pexels-alexander-ant-bg.jpg';
+import jLeff from './pexels-j-lee-6843670.jpg';
+import mikaelBlom from './pexels-mikael-blomkvist-6476260.jpg';
+
+import stuckatHomeTime from './Stuck-at-Home-Alone-Time.png';
+import stuckatHomeOffice from './Stuck-at-Home-Home-Office.png';
+import stuckatHomeQuality from './Stuck-at-Home-Quality-Time.png';
+import stuckatHomeSitting from './Stuck-at-Home-Sitting-On-Floor.png';
+
 export {
 	logo,
 	backend,
@@ -108,4 +128,19 @@ export {
 	python,
 	underConstruction,
 	fullstackCmsScreenshot,
+	amigosChatting,
+	avatarNetwork,
+	croodsChart,
+	croodsFriends,
+	croodsUserInterface,
+	croodsWindows,
+	group,
+	groupTwo,
+	alexAntBg,
+	jLeff,
+	mikaelBlom,
+	stuckatHomeOffice,
+	stuckatHomeQuality,
+	stuckatHomeSitting,
+	stuckatHomeTime,
 };
