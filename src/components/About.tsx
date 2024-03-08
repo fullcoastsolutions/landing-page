@@ -36,7 +36,7 @@ const About = () => {
 			</div>
 			<div className='flex-1 p-10'>
 				<img
-					src={'/src/assets/pexels-mikael-blomkvist-6476260.jpg'}
+					src={'/assets/pexels-mikael-blomkvist-6476260.jpg'}
 					alt='project_image'
 					className='w-full h-auto object-cover rounded-2xl mx-auto'
 				/>
