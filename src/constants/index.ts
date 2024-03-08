@@ -21,8 +21,9 @@ import {
 	python,
 	fullstackCmsScreenshot,
 } from '../assets';
+import { NavLinksProps } from '../types';
 
-export const navLinks = [
+export const navLinks: NavLinksProps = [
 	{
 		id: 'about',
 		title: 'About',
