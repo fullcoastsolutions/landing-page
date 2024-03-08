@@ -285,7 +285,7 @@ const stats = [
 	},
 	{
 		name: '20+',
-		description: 'Exper Consultants',
+		description: 'Expert Consultants',
 		image: group,
 	},
 	{
