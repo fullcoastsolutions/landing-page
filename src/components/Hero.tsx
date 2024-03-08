@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 
 import { styles } from '../styles';
+import { stuckatHomeOffice } from '../assets';
 // import { ComputersCanvas } from './canvas';
 
 const Hero = () => {
@@ -30,7 +31,7 @@ const Hero = () => {
 					<div className='flex-1'>
 						{/* <div className='bg-hero-pattern bg-fixed bg-cover bg-no-repeat bg-center h-full' /> */}
 						<img
-							src='/landing-page/assets/Stuck at Home Home Office.png'
+							src={stuckatHomeOffice}
 							alt='hero image'
 							className='mx-auto'
 						/>

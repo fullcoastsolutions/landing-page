@@ -7,6 +7,7 @@ import ReCAPTCHA from 'react-google-recaptcha';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { slideIn } from '../utils/motion';
+import { stuckatHomeTime } from '../assets';
 
 const Contact = () => {
 	const formRef = useRef(null);
@@ -171,7 +172,7 @@ const Contact = () => {
 					</p>
 				</div>
 				<img
-					src={'/landing-page/assets/Stuck at Home Alone Time 1.png'}
+					src={stuckatHomeTime}
 					alt='stat_image'
 					className='object-cover rounded-2xl'
 				/>
