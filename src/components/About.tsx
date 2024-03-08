@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { SectionWrapper } from '../hoc';
 import { fadeIn, textVariant } from '../utils/motion';
+import { mikaelBlom } from '../assets';
 
 const About = () => {
 	return (
@@ -36,7 +37,7 @@ const About = () => {
 			</div>
 			<div className='flex-1 p-10'>
 				<img
-					src={'/landing-page/assets/pexels-mikael-blomkvist-6476260.jpg'}
+					src={mikaelBlom}
 					alt='project_image'
 					className='w-full h-auto object-cover rounded-2xl mx-auto'
 				/>
